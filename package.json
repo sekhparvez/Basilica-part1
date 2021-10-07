@@ -4,14 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "start": "browser-sync start --directory --server 'app' --files 'app'"
+  },  
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.27.5",
     "concurrently": "^6.3.0",
+    "prettier": "^2.4.1",
     "sass": "^1.42.1"
   }
 }
